@@ -1,0 +1,11 @@
+.input-form{
+font-size: 2.2rem;
+color: black;
+
+  &--country{
+    margin-bottom: 0px;
+  }
+  &--city{
+    margin-bottom: 0px;
+  }
+}

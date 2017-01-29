@@ -1,0 +1,28 @@
+.data-view{
+   margin             : auto;
+   width              : 75%;
+   border             : 3px solid green;
+   padding            : 10px;
+   position           : relative;
+   top                : 20rem;
+   background-color   : blue;
+   color              : white;
+   border             : 5px solid black;
+
+   &--display{
+     position       : relative;
+     margin         : auto;
+     top            :-172px;
+     padding-bottom : 198px;
+     padding-top    :199px;
+     z-index        : 0;
+     opacity        : 1;
+     border         : 5px solid blue;
+   }
+
+&--diplay-show{
+  opacity       :1;
+  z-index       :1;
+}
+
+}

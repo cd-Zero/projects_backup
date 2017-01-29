@@ -1,0 +1,24 @@
+.key{
+  height          : 50px;
+  width           : 100px;
+  color           : white;
+  background-color: black;
+  margin          : 20px;
+  text-align      : center;
+  vertical-align  : middle;
+  position        :sticky;
+  display         :inline-block;
+  transition      :all .07s ease-out;
+  opacity         :.4;
+
+  &--large{
+    opacity: .7;
+    /*background-color: blue;*/
+    height          : 55px;
+    width           : 105px;
+    border          : 4px solid yellow;
+    text-align      : center;
+    vertical-align  : middle;
+  }
+
+}
